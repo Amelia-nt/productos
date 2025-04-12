@@ -1,0 +1,68 @@
+ /* Estilos generales */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+    background: #6f371f;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ff9900;
+}
+
+/* Galería de imágenes */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.galeria img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.galeria img:hover {
+    filter: sepia(70%) contrast(120%);
+    transform: scale(1.05) rotate(-2deg);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
